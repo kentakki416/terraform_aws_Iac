@@ -22,3 +22,31 @@
 
 ### 作成するインターネットゲートウェイ
 ![InternetGateWay](images/internetgateway.png)
+
+## 作成するセキュリティグループ
+
+作成するセキュリティグループは以下の４つ
+
+* Webサーバー用  
+  → http/httpsが入ってくる  
+  ← TCP3000（アプリケーションサーバー）が出ていく
+* APサーバー用  
+  → TCP3000が入ってくる  
+  ← http/httpsがS3に出ていく  
+  ← Mysql向けポート(TCP3306)に出ていく  
+*  DBサーバー用  
+  → Mysql向けポート(TCP3306)が入ってくる
+* 運用管理用  
+  → SSHが入ってくる  
+  → TCP3000が入ってくる  
+  ← HTTP/HTTPSが出ていく
+
+  ![SGImage](images/sg.png)
+
+### プレフィックスリスト
+  S3向けのプレフィックスリストを取得
+
+  ![PlefixImage](images/plefix.png)
+
+## 作成するRDS
+![RDSImage](images/rds.png)
