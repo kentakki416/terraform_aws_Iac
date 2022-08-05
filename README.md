@@ -66,3 +66,15 @@
 ### AMIの追加
 
 ### キーペアの作成
+
+## 作成するIAMロール
+![IAMImage](images/iam_role.png)
+![session](images/session.png)
+
+### ポリシーの作成
+* AmazonSSMManagedInstanceCore = SessionManagerを使った接続
+* AmazonS3ReadOnlyAccess = S3からファイル取得
+* AmazonEC2ReadOnlyAccess = EC2のタグ情報取得
+* AmazonSSMReadOnlyAccess = Parameter storeから環境変数取得
+
+### インスタンスプロフィールの作成
