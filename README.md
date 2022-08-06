@@ -85,3 +85,11 @@
 
 ### 手動でamiの作成
 ![ami](images/ami.png)
+
+
+## 作成するELB
+![elb](images/elb.png)
+
+### ターゲットグループの作成
+
+### リスナーの作成
