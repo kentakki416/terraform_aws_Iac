@@ -57,7 +57,7 @@
 
 ### サブネットグループ
 
-## 作成するEC2
+## 作成するEC2 (app server)
 * Amazon Linux 2
 * パブリックサブネット
 * セキュリティグループ（APPサーバ用、運用管理用）
@@ -78,3 +78,10 @@
 * AmazonSSMReadOnlyAccess = Parameter storeから環境変数取得
 
 ### インスタンスプロフィールの作成
+
+## 作成するEC2(app server)２回目
+
+### ssm_parameterにDB接続先情報を保存
+
+### 手動でamiの作成
+![ami](images/ami.png)
