@@ -85,3 +85,6 @@
 
 ### 手動でamiの作成
 ![ami](images/ami.png)
+
+## Route53の設定
+![route53](images/route.png)
