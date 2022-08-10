@@ -103,3 +103,9 @@
 ### Route53ゾーンの作成
 ### Route53レコード作成
 ### ドメインサービス側への登録（手動）
+
+## ACMの設定
+![acm](images/acm.png)
+
+### ELBに証明書を設定
+![elb](images/elb_cer.png)
