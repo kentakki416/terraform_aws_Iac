@@ -87,9 +87,19 @@
 ![ami](images/ami.png)
 
 
+
+
+
 ## 作成するELB
 ![elb](images/elb.png)
 
 ### ターゲットグループの作成
 
 ### リスナーの作成
+
+## Route53の設定
+![route53](images/route.png)
+
+### Route53ゾーンの作成
+### Route53レコード作成
+### ドメインサービス側への登録（手動）
