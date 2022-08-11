@@ -109,3 +109,14 @@
 
 ### ELBに証明書を設定
 ![elb](images/elb_cer.png)
+
+## 作成するS3
+![s3](images/s3.png)
+
+### EC2のオートスケーリングで参照するためのプライベートバケットの作成
+
+## 作成するCloudFront(オリジンサーバー)
+![cloudfront](images/cloudfront.png)
+
+### cacheサーバーの設定
+![cache](images/cache.png)
